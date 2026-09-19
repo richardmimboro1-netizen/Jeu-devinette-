@@ -1,4 +1,4 @@
-hereconst bouton = document.getElementById("btn");
+const bouton = document.getElementById("btn");
 const nombre = document.getElementById("nombre");
 const resultat = document.getElementById("resultat");
 const essais = document.getElementById("essais");
@@ -48,4 +48,4 @@ rejouer.addEventListener("click", function() {
     resultat.textContent = "";
 
     nombre.value = "";
-});
+});￼Enter
