@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de Devinette</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="jeu">
+        <h1>🎯 Jeu de Devinette</h1>
+
+        <p class="instruction">
+            Devine le nombre secret entre 1 et 100.
+        </p>
+
+        <input 
+            type="number" 
+            id="nombre" 
+            placeholder="Entre un nombre"
+        >
+
+        <button id="btn">Deviner</button>
+
+        <p id="resultat"></p>
+
+        <p>Nombre d'essais : <span id="essais">0</span></p>
+
+        <button id="rejouer">Rejouer</button>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
